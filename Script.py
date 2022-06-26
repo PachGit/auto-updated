@@ -43,7 +43,7 @@ Sᴏʀʀʏ ɪ ᴏɴʟʏ ᴡᴏʀᴋ ᴏɴ <a href='https://t.me/movie_hub_main'>
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/+_gaIOMP_AjM0MWNl)</code>
+<code>[Button Text](buttonurl:</code>https://t.me/cv_group1)
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
