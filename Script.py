@@ -21,7 +21,7 @@ Sᴏʀʀʏ ɪ ᴏɴʟʏ ᴡᴏʀᴋ ᴏɴ <a href='https://t.me/movie_hub_main'>
 - <a href=https://t.me/ss_linkz>ss ʟɪɴᴋᴢ</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and 𝕋𝔼𝕊𝕊𝔸 will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and IᖇOᑎᗰᗩᑎ will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
 1. BOT should have admin privillage.
