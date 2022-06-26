@@ -70,7 +70,7 @@ Sᴏʀʀʏ ɪ ᴏɴʟʏ ᴡᴏʀᴋ ᴏɴ <a href='https://t.me/movie_hub_main'>
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of 𝕋𝔼𝕊𝕊𝔸
+these are the extra features of IᖇOᑎᗰᗩᑎ
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
