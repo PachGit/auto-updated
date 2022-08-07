@@ -1,6 +1,6 @@
 # Kanged From @TroJanZheX
 import asyncio
-import re
+import re, random
 import ast
 
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
@@ -760,7 +760,7 @@ async def auto_filter(client, msg, spoll=False):
 ]
     if imdb and imdb.get('poster'):
         try:
-            fmsg = await message.reply_photo((random.choice{photo1}), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            fmsg = await message.reply_photo({random.choice(photo1)}, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
