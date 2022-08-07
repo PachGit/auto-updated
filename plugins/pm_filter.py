@@ -27,6 +27,10 @@ logger.setLevel(logging.ERROR)
 BUTTONS = {}
 SPELL_CHECK = {}
 
+photo1 = [
+     "https://telegra.ph/file/2dd41f6e92939623b9442.jpg",
+     "https://telegra.ph/file/5d10091ad5e594be43147.jpg"
+]
 
 @Client.on_message(filters.group & filters.text & ~filters.edited & filters.incoming)
 async def give_filter(client, message):
@@ -755,10 +759,6 @@ async def auto_filter(client, msg, spoll=False):
         )
     else:
         cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍\n\n<i>🔖 Title : {search}\n📫 Your Files is Ready Now</i></b>"
-photo1 = [
-     "https://telegra.ph/file/2dd41f6e92939623b9442.jpg",
-     "https://telegra.ph/file/5d10091ad5e594be43147.jpg"
-]
     if imdb and imdb.get('poster'):
         try:
             fmsg = await message.reply_photo(photo=f"{random.choice(photo1)}", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
