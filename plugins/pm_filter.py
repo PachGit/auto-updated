@@ -29,7 +29,8 @@ SPELL_CHECK = {}
 
 photo1 = [
      "https://telegra.ph/file/2dd41f6e92939623b9442.jpg",
-     "https://telegra.ph/file/5d10091ad5e594be43147.jpg"
+     "https://telegra.ph/file/5d10091ad5e594be43147.jpg",
+     "https://telegra.ph/file/5be4c0645ecd0dd4d7eda.jpg"
 ]
 
 @Client.on_message(filters.group & filters.text & ~filters.edited & filters.incoming)
