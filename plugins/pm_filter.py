@@ -28,7 +28,8 @@ BUTTONS = {}
 SPELL_CHECK = {}
 
 photo1 = [
-     "https://telegra.ph/file/2dd41f6e92939623b9442.jpg",
+     "https://telegra.ph/file/41c977d7b0efaca05dec0.jpg",
+     "https://telegra.ph/file/39f2c3187f39b75f9d6ea.jpg",
      "https://telegra.ph/file/5d10091ad5e594be43147.jpg",
      "https://telegra.ph/file/5be4c0645ecd0dd4d7eda.jpg"
 ]
