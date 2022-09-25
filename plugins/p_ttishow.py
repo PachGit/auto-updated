@@ -39,11 +39,11 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/cv_cv_updatezz')
+            InlineKeyboardButton('Join', url='https://t.me/Cinema_Talkies_Group')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ {message.chat.title} ❣️\n\n ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ ᴇɴᴊᴏʏ.</b>",
+            text=f"<b>ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ {message.chat.title} ❣️</b>",
             reply_markup=reply_markup)
     else:
         settings = await get_settings(message.chat.id)
