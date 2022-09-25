@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/cinemavillaz/choby.git /choby
+  git clone https://github.com/PachGit/auto-updated.git /auto-updated
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /choby
+  git clone $UPSTREAM_REPO /auto-updated
 fi
 cd /choby
 pip3 install -U -r requirements.txt
