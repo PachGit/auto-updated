@@ -28,10 +28,9 @@ BUTTONS = {}
 SPELL_CHECK = {}
 
 photo1 = [
-     "https://telegra.ph/file/41c977d7b0efaca05dec0.jpg",
-     "https://telegra.ph/file/39f2c3187f39b75f9d6ea.jpg",
-     "https://telegra.ph/file/5d10091ad5e594be43147.jpg",
-     "https://telegra.ph/file/5be4c0645ecd0dd4d7eda.jpg"
+     "https://telegra.ph/file/ebae5ff8ad114274c91db.jpg",
+     "https://telegra.ph/file/6c1320ee5abd0831b5d87.jpg",
+     "https://telegra.ph/file/e82cbf986d2a288cf2dce.jpg"
 ]
 
 @Client.on_message(filters.group & filters.text & ~filters.edited & filters.incoming)
@@ -156,9 +155,9 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit("<b>📍 Movie Not available Reasons\n\n<i>1) O.T.T Or DVD Not Released\n\n2) Type Name With Year</i> \n\n3) Movie Is Not Available in the database Say In Our Support Group To Add This Movie In My Database \n\n©️ @Cv_OfficaL</b>")
+            k = await query.message.edit("<b>📍 Movie Not available Reasons\n\n<i>1) O.T.T Or DVD Not Released\n\n2) Type Name With Year</i> \n\n3) Movie Is Not Available in the database Say In Our Support Group To Add This Movie In My Database \n\n©️ @Cinema_Talkies_Group</b>")
             button = [
-                InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/Cv_Updatezz')
+                InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/CinemaCompany_Group')
               ]
             await asyncio.sleep(16)
             await k.delete()
@@ -443,9 +442,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚡ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴏsᴇ ᴛʜɪs ʙᴜᴛᴛᴏɴs ⚡', callback_data='start')
         ], [
             InlineKeyboardButton('👑 ᴏᴡɴᴇʀ', callback_data='about'),
-            InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url='https://t.me/Cinema_Beacon_Group')
+            InlineKeyboardButton('👥 ᶜⁱⁿᵉᵐᵃ ᶜᵒᵐᵖᵃⁿʸ', url='https://t.me/CinemaCompany_Group')
         ], [
-            InlineKeyboardButton('🎬 ᴄʜᴀɴɴᴇʟ', url='https://t.me/Cv_Offical'),
+            InlineKeyboardButton('🎬 ᴄɪɴᴇᴍᴀ ᴛᴀʟᴋɪᴇꜱ', url='https://t.me/Cinema_Talkies_Group'),
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ', callback_data='close_data')
         ], [
             InlineKeyboardButton('📈 sᴛᴀᴛᴜs', callback_data='stats')
@@ -632,15 +631,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "close":
         await query.message.delete()
     elif query.data == 'tips':
-        await query.answer("🔰 Ask with correct spelling\n🔰 Don't ask movies those are not released in OTT Some Of Theatre Quality Available🤧\n🔰 For better results:\n\t\t\t\t\t\t- MovieName year\n\t\t\t\t\t\t- Eg: Kuruthi 2021\n\tⒸ ᴄɪɴᴇᴍᴀ ʙᴇᴀᴄᴏɴ", True)
+        await query.answer("🔰 Ask with correct spelling\n🔰 Don't ask movies those are not released in OTT Some Of Theatre Quality Available🤧\n🔰 For better results:\n\t\t\t\t\t\t- MovieName year\n\t\t\t\t\t\t- Eg: Joji 2022\n\tⒸ ᶜⁱⁿᵉᵐᵃ ᶜᵒᵐᵖᵃⁿʸ", True)
     elif query.data == 'reqst1':
         await query.answer("Hey Bro 😍\n\n🎯 Click On The Button below The Files You Want And Start The Bot ⬇️", True)
     elif query.data == 'info':
-        await query.answer("⚠︎ Information ⚠︎\n\nAfter 3 minutes this message will be automatically deleted\n\nIf you do not see the requested movie / series file, look at the next page\n\nⒸ ᴄɪɴᴇᴍᴀ ʙᴇᴀᴄᴏɴ", True)
+        await query.answer("⚠︎ Information ⚠︎\n\nAfter 3 minutes this message will be automatically deleted\n\nIf you do not see the requested movie / series file, look at the next page\n\nⒸ ᶜⁱⁿᵉᵐᵃ ᶜᵒᵐᵖᵃⁿʸ", True)
     elif query.data == 'movies':
-        await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴍᴀsᴛᴇʀ ᴏʀ ᴍᴀsᴛᴇʀ 2021\n\n🚯 ᴅᴏɴᴛ ᴜsᴇ ➠ ':(!,./)\n\nⒸ ᴄɪɴᴇᴍᴀ ʙᴇᴀᴄᴏɴ", True)
+        await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴍᴀsᴛᴇʀ ᴏʀ ᴍᴀsᴛᴇʀ 2021\n\n🚯 ᴅᴏɴᴛ ᴜsᴇ ➠ ':(!,./)\n\nⒸ ᶜⁱⁿᵉᵐᵃ ᶜᵒᵐᵖᵃⁿʸ", True)
     elif query.data == 'series':
-        await query.answer("sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ sᴇʀɪᴇs ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : Alive ᴏʀ Alive S01E01\n\n🚯 ᴅᴏɴᴛ ᴜsᴇ ➠ ':(!,./)\n\nⒸ ᴄɪɴᴇᴍᴀ ʙᴇᴀᴄᴏɴ", True)
+        await query.answer("sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ sᴇʀɪᴇs ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : Alive ᴏʀ Alive S01E01\n\n🚯 ᴅᴏɴᴛ ᴜsᴇ ➠ ':(!,./)\n\nⒸ ᶜⁱⁿᵉᵐᵃ ᶜᵒᵐᵖᵃⁿʸ", True)
     elif query.data == 'spelling':
         await query.answer("⚠️Search Google.com Find the Correct Spelling of Movie Name and Year. Type that in Group to get the Files⚠️", True)
     elif query.data == "neosub":
@@ -760,7 +759,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍\n\n<i>🔖 Title : {search}\n📫 Your Files is Ready Now</i></b>"
+        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍\n\n<i>🔖 Title : {search}\n📫 Your Files is Ready Now</i>\n<a href=https://t.me/Cinema_Talkies_Group>ᴄɪɴᴇᴍᴀ ᴛᴀʟᴋɪᴇꜱ</a> || <a href=https://t.me/CinemaCompany_Group>ᴄɪɴᴇᴍᴀ ᴄᴏᴍᴘᴀɴʏ</a></b>"
     if imdb and imdb.get('poster'):
         try:
             fmsg = await message.reply_photo(photo=f"{random.choice(photo1)}", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
