@@ -759,7 +759,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍\n\n<i>🔖 Title : {search}\n📫 Your Files is Ready Now</i>\n<a href=https://t.me/Cinema_Talkies_Group>ᴄɪɴᴇᴍᴀ ᴛᴀʟᴋɪᴇꜱ</a> || <a href=https://t.me/CinemaCompany_Group>ᴄɪɴᴇᴍᴀ ᴄᴏᴍᴘᴀɴʏ</a></b>"
+        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍\n\n<i>🔖 Title : {search}\n📫 Your Files is Ready Now</i></b>"
     if imdb and imdb.get('poster'):
         try:
             fmsg = await message.reply_photo(photo=f"{random.choice(photo1)}", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
